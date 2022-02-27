@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background: linear-gradient(#1c1c1c,#323232);
+}
+.main{
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    margin:30px 100px;
+
+}
+header a{
+    display: flex;
+    justify-content:space-between;
+   
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+    max-width: 20%;
+
+}
+.im{
+    height:100px;
+    width: 100px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 50%;
+    bordr:6px solid red;
+    background-image: cover;
+}
