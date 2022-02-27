@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    position: relative;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    /* margin: 3px; */
+    height: 50px;
+    align-items: center;
+}
+
+#navbar ul li a{
+    padding: 7px 16px;
+    font-size: 25px;
+    text-decoration: none;
+    color:white;
+
+}
+#navbar::before{
+    content: "";
+    background-color:rgb(220 161 164) ;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    height: 100%;
+    width: 100%; 
+    opacity: 0.5;
+
+}
+
+#home{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    
+}
+#home h1{
+    font-size: 250px;
+    color: white;
+    opacity: 0.8;
+    margin-right: 250px;
+    /* font-family: 'Baloo 2', cursive; */
+   
+} 
+#home p{
+    font-size: 50px;
+    margin-right: 250px;
+    color: white;
+    text-shadow: black;
+    margin-bottom: -40px;
+    /* font-family: b; */
+}
+#home::before{
+    content: "";
+    background: url("images/ottubeaut1.jpg") no-repeat center center/cover;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+    height: 109%;
+    width: 100%;
+
+}
+/* location css //////////////////////////////////////////////////////////////////////////////////////*/
+#location{
+    /* margin: 10px 10px; */
+    background-color:rgb(221, 134, 151);
+}
+#location .har{
+    display: flex;
+    margin: 10px 10px;
+}
+#location .har img{
+    width: 500px;
+    height: 300px;
+    /* border: 3px solid; */
+    margin: 0px 30px;
+}
+.heading{
+    margin: 2px 10px;
+    font-size: 60px;
+    padding: 30px 5px;
+
+}
+#location p{
+    font-size: 2rem;
+    padding: 14px;
+}
+.maps h1{
+    font-size:35px ;
+    margin: 10px 25px;
+}
+#map {
+    width: 96%;
+    margin: 20px 20px;
+}
